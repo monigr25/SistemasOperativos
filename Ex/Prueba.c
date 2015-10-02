@@ -14,9 +14,6 @@ int main(int argc, char const *argv[])
 	pt = &hola[0];
 	pt2 = &Moni[0];
 	point = my_strlen(pt);	 
-	printf("\n");	   
-	printf("El string tiene una longitud de %d caracteres",point);
-	printf("\n");
 	printf("\n");
 	printf("%s",my_strncpy(pt2, pt , 4));
 	printf("\n");
